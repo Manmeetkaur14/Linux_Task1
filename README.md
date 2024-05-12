@@ -1,6 +1,2 @@
-Task: Managing Configurations with Soft Links and Hard Links
-Create Configuration Files: Create two configuration files named config1.conf and config2.conf in a directory called config_files.
-Soft Link: Create a soft link for config1.conf in a directory called soft_links.
-Hard Link: Create a hard link for config2.conf in a directory called hard_links.
-Verify Changes: Modify one of the configuration files and observe how the changes propagate to both the soft-linked file and the hard-linked file.
-Cleanup: Delete the directories and files created during the task.
+Soft link (Symbolic link): Acts as a shortcut or alias to another file or directory. It's like a pointer.
+Hard link: Creates another directory entry pointing directly to the physical data of a file. It's like having multiple names for the same file.
